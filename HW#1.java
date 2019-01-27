@@ -6,6 +6,9 @@ import javax.crypto.ExemptionMechanismSpi;
 public class ReadStudents {
 
 	public static void main(String[] args) {
+        
+        
+        
 		/*
 		 * if (args.length != 1) {
 		 * System.out.println("USAGE: java ReadStudents INPUT_DAT_FILE");
