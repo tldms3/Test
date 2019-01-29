@@ -6,12 +6,14 @@ import javax.crypto.ExemptionMechanismSpi;
 public class ReadStudents {
 
 	public static void main(String[] args) {
+        
+        
+        
 		/*
 		 * if (args.length != 1) {
 		 * System.out.println("USAGE: java ReadStudents INPUT_DAT_FILE");
 		 * System.exit(0); }
 		 */
-
 		switch (args[1]) {
 		case "p":
 			Print_POSITION(args[0], args[1], Integer.parseInt(args[2]));
